@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: "ungai";
-  src: url("/fonts/ungai.ttf") format("truetype");
+  src: url("/Sparkle/fonts/ungai.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "bento";
-  src: url("/fonts/bentoII.ttf") format("truetype");
+  src: url("/Sparkle/fonts/bentoII.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "hon";
-  src: url("/fonts/houseofnguyen.ttf") format("truetype");
+  src: url("/Sparkle/fonts/houseofnguyen.ttf") format("truetype");
 }
 
 :root {

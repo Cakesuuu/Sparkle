@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import { easeIn, easeInOut, motion } from "framer-motion";
+import '../public/fonts/fonts.css';
 
 export default function Home() {
   return (

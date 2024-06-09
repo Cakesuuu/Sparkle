@@ -70,7 +70,15 @@ export default function Home() {
 
       </div>
 
-      <div className="flex flex-col h-fit w-full items-center bg-white p-5 gap-5">
+      <motion.div className="flex flex-col h-fit w-full items-center bg-white p-5 gap-5"
+      whileInView={{
+        y: [100, 0],
+        opacity: [0, 100]
+      }}
+      transition={{
+        duration: 1
+      }}
+      >
 
         <h1 className="font-bento text-5xl md:text-6xl text-black">The Sparkling Splendor</h1>
 
@@ -107,6 +115,10 @@ export default function Home() {
         <p className="w-11/12 md:w-8/12 text-black text-sm md:text-base font-medium text-justify">
           <i>&quot;Can I perform, too?&quot;</i>
         </p>
+
+      </motion.div>
+
+      <div className="h-16 border-2 border-amber-300">
 
       </div>
 

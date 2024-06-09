@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "ungai";
+    src: url("ungai.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "bento";
+    src: url("bentoII.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "hon";
+    src: url("houseofnguyen.ttf") format("truetype");
+}

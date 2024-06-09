@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
 @font-face {
   font-family: "ungai";
   src: url("/Sparkle/fonts/ungai.ttf") format("truetype");
@@ -16,6 +17,7 @@
   font-family: "hon";
   src: url("/Sparkle/fonts/houseofnguyen.ttf") format("truetype");
 }
+*/
 
 :root {
   --foreground-rgb: 0, 0, 0;

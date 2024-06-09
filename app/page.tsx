@@ -49,11 +49,15 @@ export default function Home() {
 
               </div>
 
-              <div className="relative flex w-10/12 md:w-full md:h-[600px]">
+              <div className="flex flex-col h-fit w-full items-center">
 
-                <img
+                <Image
                   src="./sparkle.png"
-                  className="w-full h-full object-contain max-w-full max-h-full"
+                  className="w-full md:w-1/2 h-auto rounded-xl z-0"
+                  width="0"
+                  height="0"
+                  unoptimized
+                  alt=""
                 />
 
               </div>
@@ -70,11 +74,15 @@ export default function Home() {
 
         <h1 className="font-bento text-5xl md:text-6xl text-black">The Sparkling Splendor</h1>
 
-        <div className="relative flex w-full md:w-1/2 md:h-fit">
+        <div className="flex flex-col h-fit w-full md:w-6/12 items-center">
 
-          <img
+          <Image
             src="./sparklebanner.jpg"
-            className="w-fit h-fit object-contain rounded-2xl"
+            className="w-full h-auto rounded-xl"
+            width="0"
+            height="0"
+            unoptimized
+            alt=""
           />
 
         </div>
@@ -97,7 +105,7 @@ export default function Home() {
         </p>
 
         <p className="w-11/12 md:w-8/12 text-black text-sm md:text-base font-medium text-justify">
-          <i>"Can I perform, too?"</i>
+          <i>&quot;Can I perform, too?&quot;</i>
         </p>
 
       </div>

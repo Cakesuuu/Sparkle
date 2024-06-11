@@ -16,3 +16,8 @@
     font-family: "hon";
     src: url("houseofnguyen.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "nsj";
+    src: url("notoserifjp.ttf") format("truetype");
+}

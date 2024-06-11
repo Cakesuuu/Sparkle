@@ -2,23 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-@font-face {
-  font-family: "ungai";
-  src: url("/Sparkle/fonts/ungai.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "bento";
-  src: url("/Sparkle/fonts/bentoII.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "hon";
-  src: url("/Sparkle/fonts/houseofnguyen.ttf") format("truetype");
-}
-*/
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

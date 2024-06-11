@@ -17,6 +17,7 @@ const config: Config = {
         ungai: ['ungai'],
         hon: ['hon'],
         bento: ['bento'],
+        nsj: ['nsj']
       },
     },
   },

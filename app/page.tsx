@@ -17,13 +17,13 @@ export default function Home() {
 
       <div className="relative flex min-h-screen w-full">
 
-        <div className="relative flex flex-col md:flex-row w-full h-auto md:rounded-3xl bg-[#F0F8FF] m-5">
+        <div className="relative flex flex-col md:flex-row w-full h-auto md:rounded-3xl bg-[#F0F8FF] md:m-5">
 
           <div className="flex flex-col w-full md:w-4/12 h-2/6 md:h-auto bg-[#0B1215] items-end">
 
             <div className="flex flex-row h-1/6 w-full bg-[#0B1215] rounded-l-3xl justify-end">
 
-              <div className="flex flex-col w-2/4 h-full bg-[#0B1215]">
+              <div className="flex flex-col w-1/4 h-full bg-[#0B1215]">
 
                 <div className="w-full h-1/2 bg-[#F0F8FF]">
 
@@ -39,17 +39,17 @@ export default function Home() {
 
             </div>
 
-            <div className="h-4/6 w-full bg-[#F0F8FF]">
+            <div className="flex h-4/6 w-full bg-[#F0F8FF]">
 
               <div className="flex flex-col h-full w-full bg-[#0B1215] rounded-3xl rounded-l-none p-3 items-end">
 
-                <div className="flex flex-col w-10/12 h-full border-2 border-[#F0F8FF] rounded-2xl items-center justify-center p-5">
+                <div className="flex flex-col w-full h-full border-2 border-[#F0F8FF] rounded-2xl justify-center items-center p-5 gap-3">
 
                   <h1 className="text-[#F0F8FF] font-bento text-6xl md:text-8xl w-fit h-fit">Sparkle</h1>
 
                   <div className="border border-[#7c1825] w-8/12 rounded"></div>
 
-                  <p className="text-[#F0F8FF] text-sm font-medium w-full h-fit text-justify p-5">
+                  <p className="text-[#F0F8FF] text-sm font-medium w-full h-fit text-justify">
                     A member of the Masked Fools. Inscrutable and unscrupulous. A dangerous master of theatrics engrossed in
                     playing roles. A woman of countless masks and many faces. Wealth, status, power... None of this matters to
                     Sparkle. The only thing that can lure her interest is &apos;amusement.&apos;
@@ -63,7 +63,7 @@ export default function Home() {
 
             <div className="flex flex-row h-1/6 w-full bg-[#0B1215] rounded-l-3xl justify-end">
 
-              <div className="flex flex-col w-2/4 h-full bg-[#0B1215]">
+              <div className="flex flex-col w-3/4 h-full bg-[#0B1215]">
 
                 <div className="w-full h-1/2 bg-[#F0F8FF] rounded-3xl rounded-r-none"></div>
 
@@ -75,7 +75,7 @@ export default function Home() {
 
               </div>
 
-              <div className="w-1/4 h-full bg-[#F0F8FF] rounded-bl-2xl"></div>
+              <div className="w-3/4 h-full bg-[#F0F8FF] rounded-bl-2xl"></div>
 
             </div>
 
@@ -154,8 +154,6 @@ export default function Home() {
               />
 
             </div>
-
-            <div className="h-3/6 w-full"></div>
 
           </div>
 

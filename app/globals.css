@@ -56,3 +56,7 @@ body {
 .font-outline {
   -webkit-text-stroke: 0.1px white;
 }
+
+.flip-horizontal {
+  --transform-scale-x: -1;
+}

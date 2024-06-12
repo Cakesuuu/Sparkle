@@ -15,22 +15,37 @@ export default function Home() {
   return (
     <main className="bg-[#0B1215] pb-96">
 
-      <div className="flex min-h-screen w-full md:p-5">
+      <div className="relative flex min-h-screen w-full">
 
-        <div className="relative flex flex-col md:flex-row w-full h-auto md:rounded-3xl bg-[#BA162E]">
+        <div className="relative flex flex-col md:flex-row w-full h-auto md:rounded-3xl bg-[#F0F8FF] m-5">
 
           <div className="flex flex-col w-full md:w-4/12 h-2/6 md:h-auto bg-[#0B1215] items-end">
 
-            <div className="flex flex-col h-2/6 w-full bg-[#BA162E] rounded-l-3xl items-center justify-center">
+            <div className="flex flex-row h-1/6 w-full bg-[#0B1215] rounded-l-3xl justify-end">
+
+              <div className="flex flex-col w-2/4 h-full bg-[#0B1215]">
+
+                <div className="w-full h-1/2 bg-[#F0F8FF]">
+
+                  <div className="w-full h-full bg-[#0B1215] rounded-br-3xl"></div>
+
+                </div>
+
+                <div className="w-full h-1/2 bg-[#F0F8FF] rounded-3xl rounded-r-none"></div>
+
+              </div>
+
+              <div className="w-2/4 h-full bg-[#F0F8FF] rounded-tl-2xl"></div>
+
             </div>
 
-            <div className="h-3/6 w-full bg-[#BA162E]">
+            <div className="h-4/6 w-full bg-[#F0F8FF]">
 
               <div className="flex flex-col h-full w-full bg-[#0B1215] rounded-3xl rounded-l-none p-3 items-end">
 
-                <div className="flex flex-col w-10/12 h-full border-2 border-[#BA162E] rounded-2xl items-center justify-center p-5">
+                <div className="flex flex-col w-10/12 h-full border-2 border-[#F0F8FF] rounded-2xl items-center justify-center p-5">
 
-                  <h1 className="text-[#ffcea7] font-bento text-6xl md:text-8xl w-fit h-fit">Sparkle</h1>
+                  <h1 className="text-[#F0F8FF] font-bento text-6xl md:text-8xl w-fit h-fit">Sparkle</h1>
 
                   <div className="border border-[#7c1825] w-8/12 rounded"></div>
 
@@ -50,9 +65,9 @@ export default function Home() {
 
               <div className="flex flex-col w-2/4 h-full bg-[#0B1215]">
 
-                <div className="w-full h-1/2 bg-[#BA162E] rounded-3xl rounded-r-none"></div>
+                <div className="w-full h-1/2 bg-[#F0F8FF] rounded-3xl rounded-r-none"></div>
 
-                <div className="w-full h-1/2 bg-[#BA162E]">
+                <div className="w-full h-1/2 bg-[#F0F8FF]">
 
                   <div className="w-full h-full bg-[#0B1215] rounded-tr-3xl"></div>
 
@@ -60,23 +75,7 @@ export default function Home() {
 
               </div>
 
-              <div className="w-1/4 h-full bg-[#BA162E] rounded-bl-2xl"></div>
-
-            </div>
-
-          </div>
-
-          <div className="hidden absolute md:flex flex-col w-full md:w-6/12 h-2/6 md:h-full items-end justify-start">
-
-            <div className="relative h-2/6 w-full">
-
-              <Image
-                className="md:object-cover drop-shadow-[0px_80px_2px_rgba(0,0,0,0.5)]"
-                src="./cherryblossom.png"
-                fill
-                unoptimized
-                alt=""
-              />
+              <div className="w-1/4 h-full bg-[#F0F8FF] rounded-bl-2xl"></div>
 
             </div>
 
@@ -93,7 +92,7 @@ export default function Home() {
             </div>
 
             <Image
-              className="object-cover md:object-contain md:p-5 drop-shadow-[0px_10px_2px_rgba(0,0,0,0.5)]"
+              className="object-contain md:p-5 drop-shadow-[0px_10px_2px_rgba(0,0,0,0.5)]"
               src="./sparkle.png"
               fill
               unoptimized
@@ -104,13 +103,13 @@ export default function Home() {
 
           <div className="flex flex-col w-full md:w-1/12 h-1/6 md:h-auto bg-[#0B1215] items-start">
 
-            <div className="flex h-16 w-1/2 bg-[#BA162E] rounded-r-3xl"></div>
+            <div className="flex h-16 w-1/2 bg-[#F0F8FF] rounded-r-3xl"></div>
 
-            <div className="h-full w-full bg-[#BA162E]">
+            <div className="h-full w-full bg-[#F0F8FF]">
 
               <div className="flex h-full w-full bg-[#0B1215] rounded-3xl rounded-r-none p-3">
 
-                <div className="flex w-full h-full border-2 border-[#BA162E] rounded-2xl">
+                <div className="flex w-full h-full border-2 border-[#F0F8FF] rounded-2xl">
 
                 </div>
 
@@ -118,7 +117,45 @@ export default function Home() {
 
             </div>
 
-            <div className="flex h-full w-full bg-[#BA162E] rounded-r-3xl p-3"></div>
+            <div className="flex flex-row h-full w-full bg-[#0B1215] rounded-l-3xl justify-start">
+
+              <div className="w-1/4 h-full bg-[#F0F8FF] rounded-br-2xl"></div>
+
+              <div className="flex flex-col w-2/4 h-full bg-[#0B1215]">
+
+                <div className="w-full h-1/2 bg-[#F0F8FF] rounded-3xl rounded-l-none"></div>
+
+                <div className="w-full h-1/2 bg-[#F0F8FF]">
+
+                  <div className="w-full h-full bg-[#0B1215] rounded-tl-3xl"></div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="absolute flex-row w-full min-h-screen">
+
+          <div className="hidden absolute md:flex flex-col w-full md:w-6/12 h-full items-end justify-start left-0">
+
+            <div className="relative h-3/6 w-full">
+
+              <Image
+                className="object-cover drop-shadow-[0px_50px_2px_rgba(0,0,0,0.5)]"
+                src="./cherryblossom.png"
+                fill
+                unoptimized
+                alt=""
+              />
+
+            </div>
+
+            <div className="h-3/6 w-full"></div>
 
           </div>
 
@@ -132,12 +169,12 @@ export default function Home() {
 
           <div className="flex flex-row md:flex-col h-fit md:h-full w-full md:w-3/12 justify-center items-center">
 
-            <div className="hidden md:block h-full w-full bg-[#BA162E] rounded-l-[30px]">
+            <div className="hidden md:block h-full w-full bg-[#F0F8FF] rounded-l-[30px]">
             </div>
 
-            <div className="bg-[#7c1825] md:bg-[#BA162E]">
+            <div className="bg-[#7c1825] md:bg-[#F0F8FF]">
 
-              <div className="flex flex-col h-fit w-full items-center p-5 gap-3 rounded-[30px] rounded-t-none md:rounded-tr-[30px] md:rounded-l-none bg-[#BA162E] md:bg-[#0B1215]">
+              <div className="flex flex-col h-fit w-full items-center p-5 gap-3 rounded-[30px] rounded-t-none md:rounded-tr-[30px] md:rounded-l-none bg-[#F0F8FF] md:bg-[#0B1215]">
 
                 <h1 className="font-bento text-[#ffcea7] text-7xl">Sparkle</h1>
 
@@ -153,14 +190,14 @@ export default function Home() {
 
             </div>
 
-            <div className="hidden md:block h-full w-full bg-[#BA162E] rounded-l-[30px]">
+            <div className="hidden md:block h-full w-full bg-[#F0F8FF] rounded-l-[30px]">
             </div>
 
           </div>
 
           <div className="flex w-full md:w-9/12 h-fit md:h-full">
 
-            <div className="flex w-full h-auto bg-[#BA162E] md:rounded-[30px] md:rounded-l-none items-center justify-center p-5 md:p-0">
+            <div className="flex w-full h-auto bg-[#F0F8FF] md:rounded-[30px] md:rounded-l-none items-center justify-center p-5 md:p-0">
 
               <div className="absolute flex w-10/12 md:w-5/12 aspect-square border-4 border-[#7c1825] rounded-full items-center justify-center p-1">
                 <div className="w-full aspect-square border-4 border-[#7c1825] rounded-full border-dashed"></div>
